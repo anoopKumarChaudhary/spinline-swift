@@ -4,10 +4,10 @@ Put a [Spinline](https://playmez.com) game in your iOS app. A `WKWebView`-backed
 
 ## Install (Swift Package Manager)
 
-Xcode: File → Add Package Dependencies → `https://github.com/anoopKumarChaudhary/spinline-swift`, from `1.0.1`.
+Xcode: File → Add Package Dependencies → `https://github.com/anoopKumarChaudhary/spinline-swift`, from `1.0.2`.
 
 ```swift
-.package(url: "https://github.com/anoopKumarChaudhary/spinline-swift", from: "1.0.1")
+.package(url: "https://github.com/anoopKumarChaudhary/spinline-swift", from: "1.0.2")
 ```
 
 ## Use

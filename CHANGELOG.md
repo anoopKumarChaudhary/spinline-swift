@@ -2,6 +2,10 @@
 
 All five packages (`spinline-embed`, `spinline-embed-react-native`, `spinline_embed`, `app.spinline:embed`, `SpinlineEmbed`) share one version, kept in `sdk/VERSION`.
 
+## 1.0.2
+
+- Android: the library ships its own Gradle 8.11.1 wrapper and JitPack builds with it, so the `com.github.anoopKumarChaudhary:spinline-android` artifact resolves again (1.0.1 never built there). No code change for any package.
+
 ## 1.0.1
 
 - Canonical hosts: documentation, package homepages, the web bundle banner and the drop-in headers now point at `https://playmez.com` and `https://api.playmez.com`. No behaviour change; the launch URL's origin is still read from the launch response.
