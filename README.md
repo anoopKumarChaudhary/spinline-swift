@@ -1,13 +1,13 @@
 # SpinlineEmbed for iOS
 
-Put a [Spinline](https://spinline.vercel.app) game in your iOS app. A `WKWebView`-backed `UIView` plus a SwiftUI wrapper that relay the game's events. iOS 14+. Points are virtual, non-transferable and worth nothing.
+Put a [Spinline](https://playmez.com) game in your iOS app. A `WKWebView`-backed `UIView` plus a SwiftUI wrapper that relay the game's events. iOS 14+. Points are virtual, non-transferable and worth nothing.
 
 ## Install (Swift Package Manager)
 
-Xcode: File → Add Package Dependencies → `https://github.com/anoopKumarChaudhary/spinline-swift`, from `1.0.0`.
+Xcode: File → Add Package Dependencies → `https://github.com/anoopKumarChaudhary/spinline-swift`, from `1.0.1`.
 
 ```swift
-.package(url: "https://github.com/anoopKumarChaudhary/spinline-swift", from: "1.0.0")
+.package(url: "https://github.com/anoopKumarChaudhary/spinline-swift", from: "1.0.1")
 ```
 
 ## Use
@@ -30,6 +30,6 @@ Events: `ready` (`game`), `result` (`game`, `won`, `net`), `close`, `error` (`co
 
 Voice at shared tables (only when Spinline switched it on for you): the view grants microphone capture to the game origin; add `NSMicrophoneUsageDescription` to Info.plist, or set `allowMicrophone = false`.
 
-Full guide: https://spinline.vercel.app/developers
+Full guide: https://playmez.com/developers
 
 MIT © Spinline

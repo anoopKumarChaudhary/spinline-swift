@@ -1,7 +1,7 @@
 import Foundation
 
 /// The package version, for your logs.
-public let spinlineSdkVersion = "1.0.0"
+public let spinlineSdkVersion = "1.0.1"
 
 /// One message from the game: `ready`, `result`, `close`, `error` or `resize`.
 public struct SpinlineEvent {
