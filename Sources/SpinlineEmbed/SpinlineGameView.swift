@@ -65,6 +65,7 @@ public final class SpinlineGameView: UIView {
         if event.type == "close" { onClose?() }
     }
 
+    @available(iOS 15.0, *)
     fileprivate func mayCapture(origin: WKSecurityOrigin, type: WKMediaCaptureType) -> Bool {
         guard allowMicrophone, type == .microphone else { return false }
         return origin.host == allowedHost
